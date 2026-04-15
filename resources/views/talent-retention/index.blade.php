@@ -9,50 +9,49 @@
 
 <body class="flex min-h-screen bg-gray-100">
 
-<!-- SIDEBAR -->
-<div id="sidebar"
-     class="w-20 min-h-screen bg-gradient-to-b from-teal-900 to-teal-700 flex flex-col items-center py-6 transition-all duration-300">
+    <!-- SIDEBAR -->
+    <div id="sidebar"
+         class="w-20 min-h-screen bg-gradient-to-b from-teal-900 to-teal-700 flex flex-col items-center py-6">
 
-    <!-- TOGGLE -->
-    <button onclick="toggleSidebar()"
-        class="mb-6 bg-white text-teal-700 w-7 h-7 rounded-full shadow flex items-center justify-center text-sm hover:bg-gray-100">
-        ❯
-    </button>
+        <!-- TOGGLE -->
+        <button onclick="toggleSidebar()"
+            class="mb-6 bg-white text-teal-700 w-7 h-7 rounded-full shadow flex items-center justify-center text-sm hover:bg-gray-100">
+            ❯
+        </button>
 
-    <!-- MENU -->
-    <div class="flex flex-col items-center gap-10 text-white text-xs mt-4">
+        <!-- MENU -->
+        <div class="flex flex-col items-center gap-10 text-white text-xs mt-4">
 
-        <!-- DASHBOARD -->
-        <a href="{{ route('dashboard') }}"
-           class="flex flex-col items-center gap-2 opacity-70 hover:opacity-100">
-            <div class="text-2xl">
-    <i class="fa-solid fa-house"></i>
-</div>
-            <span class="menu-text hidden">Dashboard</span>
-        </a>
+            <!-- DASHBOARD -->
+            <a href="{{ route('dashboard') }}"
+               class="flex flex-col items-center gap-2 opacity-70 hover:opacity-100">
+                <div class="text-2xl">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <span class="menu-text hidden">Dashboard</span>
+            </a>
 
-        <!-- DEVELOPMENT -->
-        <a href="/talent-development"
-           class="flex flex-col items-center gap-2 opacity-70 hover:opacity-100">
-            <div class="text-2xl">
-    <i class="fa-solid fa-gear"></i>
-</div>
-            <span class="menu-text hidden">Development</span>
-        </a>
+            <!-- DEVELOPMENT -->
+            <a href="/talent-development"
+               class="flex flex-col items-center gap-2 opacity-70 hover:opacity-100">
+                <div class="text-2xl">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <span class="menu-text hidden">Development</span>
+            </a>
 
-        <!-- RETENTION -->
-<div class="relative">
+            <!-- RETENTION -->
+            <div class="relative">
 
-    <!-- BUTTON -->
-    <button onclick="toggleRetentionMenu()"
-        class="flex flex-col items-center gap-2">
+                <button onclick="toggleRetentionMenu()"
+                    class="flex flex-col items-center gap-2 w-full">
 
-        <div class="bg-teal-500 p-3 rounded-full shadow">
-    <i class="fa-solid fa-chart-line text-white text-xl"></i>
-</div>
+                    <div class="bg-teal-500 p-3 rounded-full shadow">
+                        <i class="fa-solid fa-chart-line text-white text-xl"></i>
+                    </div>
 
-        <span class="menu-text hidden text-white text-xs">Retention</span>
-    </button>
+                    <span class="menu-text hidden text-white text-xs">Retention</span>
+                </button>
 
     <!-- POPUP MENU -->
     <div id="retentionMenu"
@@ -96,20 +95,18 @@
 
 </div>
 
-</div>
+            </div>
 
-    
-</div>
+            <!-- OFFBOARDING -->
+            <a href="/employee-offboarding"
+               class="flex flex-col items-center gap-2 opacity-70 hover:opacity-100">
+                <div class="text-2xl">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <span class="menu-text hidden">Offboarding</span>
+            </a>
 
-        <!-- OFFBOARDING -->
-        <a href="/employee-offboarding"
-           class="flex flex-col items-center gap-2 opacity-70 hover:opacity-100">
-            <div class="text-2xl">
-    <i class="fa-solid fa-user"></i>
-</div>
-            <span class="menu-text hidden">Offboarding</span>
-        </a>
-
+        </div>
     </div>
 
 </div>
