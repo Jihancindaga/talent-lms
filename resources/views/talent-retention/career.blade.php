@@ -75,8 +75,8 @@
     <!-- CAREER -->
     <p class="text-xs text-gray-400 mb-1">Career Development</p>
     <a href="{{ route('retention.career') }}" class="block px-3 py-2 rounded hover:bg-teal-50 text-gray-700">Training</a>
-    <a href="#" class="block px-3 py-2 rounded hover:bg-teal-50 text-gray-700">Kesiapan Karir</a>
-    <a href="#" class="block px-3 py-2 rounded hover:bg-teal-50 text-gray-700">Rekomendasi</a>
+    <a href="{{ route('retention.kesiapan') }}" class="block px-3 py-2 rounded hover:bg-teal-50 text-gray-700">Kesiapan Karir</a>
+    <a href="{{ route('retention.rekomendasi') }}" class="block px-3 py-2 rounded hover:bg-teal-50 text-gray-700">Rekomendasi</a>
 
     <!-- ENGAGEMENT -->
     <p class="text-xs text-gray-400 mb-1">Engagement</p>

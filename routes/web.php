@@ -34,7 +34,13 @@ Route::get('/talent-retention/career', function () {
     return view('talent-retention.career');
 })->name('retention.career');
 
+Route::get('/talent-retention/kesiapan-karir', function () {
+    return view('talent-retention.kesiapan-karir');
+})->name('retention.kesiapan');
 
+Route::get('/talent-retention/rekomendasi', function () {
+    return view('talent-retention.rekomendasi');
+})->name('retention.rekomendasi');
 /*
 |--------------------------------------------------------------------------
 | PROFILE

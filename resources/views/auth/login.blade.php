@@ -37,7 +37,7 @@
 
         <div class="bg-white/20 backdrop-blur-md p-4 rounded-lg text-center w-32">
             <i class="fa-solid fa-user-plus text-2xl mb-2"></i>
-            <p class="text-sm">Employee Onboarding</p>
+            <p class="text-sm">Employee Offboarding</p>
         </div>
 
     </div>
